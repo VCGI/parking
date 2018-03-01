@@ -1,0 +1,21 @@
+{"type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id"  : "MAINSTLANDING",
+        "Address" : "60 Lake St.",
+        "Name": "Main Street Landing",
+        "icon": "theatre",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.219681,
+          44.477331
+        ]
+      }
+    }
+  ]
+}
