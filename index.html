@@ -82,7 +82,7 @@
 <body>
   <div id='map'></div>
   <div class='map-overlay' id='features'><h2>GeoDatSci 2018</h2>
-  <div id='pd'><p>Mouse over a location for its address!</p></div></div>
+  <div id='pd'><p>Hover over a location for its address!</p></div></div>
   <div class='map-overlay' id='legend'></div>
   <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiamVubnlib3dlcnNvdiIsImEiOiJjajRmd3llMXUwMTAyMzNuM2xxemZzeWlzIn0.4cQy-eErnPevGWKsj-fjSw';
@@ -124,7 +124,7 @@
       if (locations.length > 0) {
         document.getElementById('pd').innerHTML = '<p><strong>Facility Name:</strong> ' + toTitleCase(locations[0].properties.Name) + '</p><p><strong>Address:</strong> ' + locations[0].properties.Address + '</p>';
       } else {
-        document.getElementById('pd').innerHTML = '<p>Mouse over a location for its address!</p>';
+        document.getElementById('pd').innerHTML = '<p>Hover over a location for its address!</p>';
       }
     });
 
